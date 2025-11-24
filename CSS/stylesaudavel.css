@@ -39,7 +39,6 @@ header a{
     font-weight: bold;
     color: #443610;
     margin: 2vw;
-    width: 50vw;
 }
 .terceiro p{
     font-size: 1.9rem;
@@ -99,4 +98,36 @@ footer p{
 
 footer p img{
     width: 5vw;
+}
+
+@media only screen and (max-width: 600px) {
+
+    
+    header h1{
+        font-size: 1.9rem;
+        padding: 20px 10px 0 10px;
+        text-shadow: #864a50 2px 2px 5px;
+        
+    }
+    header a{
+        font-size: 0.5rem;
+    }
+    header ul{
+        padding: 15px 18px 20px 18px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    div.segundo{
+        display: block;
+        justify-content: center;
+    }
+    div.segundo p{
+        font-size: 1.1rem;
+        padding: 8px 15px;
+    }
+    .img img{
+    width: 55vw;
+    height: 45vw;
+}
+
 }
