@@ -70,7 +70,7 @@ section.texto {
 }
 .texImg img{
     width: 400px;
-    padding: 0vw 5vw 2vw 5vw ;
+    padding: 0vw 5vw 2vw 5vw;
 }
 
 /*conteudo*/
@@ -177,4 +177,52 @@ footer p {
 
 footer img{
     width: 5vw;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    
+    header h1{
+        font-size: 2.9rem;
+        padding: 20px 20px 0 20px;
+        text-shadow: #a04729 2px 2px 5px;
+        
+    }
+    header a{
+        font-size: 0.5rem;
+    }
+    header ul{
+        padding: 15px 18px 20px 18px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .texImg{
+        display: block;
+    }
+    .texImg img, .piramide img{
+    width: 280px;
+    padding: 4vw 5vw 2vw 5vw;
+    }
+    .conteudo{
+        text-align: left;
+    }
+    .texDireita p, .piramide ul li{
+        width: 95%;
+    }
+    .conteudo div.refPiramide{
+        padding: 10px 60px;
+        margin-bottom: 4vw;
+    }
+    .piramide{
+        display: block;
+        padding: 5vw 2vw 5vw 2vw;
+    }
+    footer p{
+        font-size: 0.9rem;
+    }
+    footer p img, div.um img{
+        width: 10vw;
+    }
+ 
 }
