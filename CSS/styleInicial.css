@@ -1,26 +1,31 @@
 body{
     background-color: #f5eedc;
+    display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
-section h2{
+main{
+    flex-grow: 1;
+}
+section h1{
   font-family: initial;
   font-weight: bold;
   font-style: normal;
   font-size: 5rem;
   text-align: center;
-  padding: 3vw;
+  padding: 3vw 0 1vw 0;
   color: #427662;
-   text-shadow: #214235 4px 3px 6px;
+    text-shadow: #214235 4px 3px 6px;
 }
 section div{
     text-align: center;
 }
 section img{
     width: 40vw;
-    height: 25vw;
 }
-section h3{
+section h2{
     padding: 10px;
-    font-size: 2em;
+    font-size: 3.2em;
     font-weight: bold;
     text-align: center;
     color: #427662;
@@ -28,17 +33,19 @@ section h3{
 section a{
     background-color: #f8cd6d;
     color: #f5eedc;
-    font-size: 1.0rem;
+    font-size: 2.0rem;
     border-radius: 9px;
     border: none;
-    padding: 9px 17px 9px 17px;
+    padding: 1vw 2vw;
     font-weight: bold;
     text-decoration: none;
 }
 section p{
     text-align: center;
-    padding: 17px;
+    padding: 3vw;
 }
+
+/*footer*/
 
 footer{
     background-color: #edd084;
@@ -59,12 +66,41 @@ div.dois ul{
     justify-content: space-around;
 }
 
+
 footer p{
-    display: flex;
+  display: flex;
     justify-content: center;
     margin: 1vw 0 0 0; 
+    font-size: 1.5rem;  
 }
 
 footer p img{
     width: 5vw;
 }
+
+@media only screen and (max-width: 600px) {
+	
+    section h1{
+        font-size: 4rem ;
+        text-shadow: #214235 2px 2px 5px;
+        padding: 6vw 0 6vw 0;
+    }
+    section a, section h2{
+        font-size: 2.3rem;
+    }
+    section img{
+        width: 380px;
+    }
+    section p{
+        padding: 5vw;
+    }
+    footer p{
+        font-size: 0.9rem;
+    }
+    footer p img, div.um img{
+        width: 10vw;
+    }
+
+
+} 
+ 
