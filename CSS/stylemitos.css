@@ -46,6 +46,7 @@ div.titulo h1{
     text-shadow: #a0896e 4px 3px 6px;
     text-align: left;
     padding: 8vw 1vw 1vw 0;
+    width: 50%;
 }
 .introducao h3{
     font-size: 3.0rem;
@@ -135,3 +136,68 @@ footer p img {
     width: 5vw;
 }
 
+
+@media only screen and (max-width: 600px) {
+
+    
+    header h1{
+        font-size: 2.9rem;
+        padding: 20px 20px 0 20px;
+        text-shadow: #a0896e 2px 2px 5px;
+        
+    }
+    header a{
+        font-size: 0.5rem;
+    }
+    header ul{
+        padding: 15px 18px 20px 18px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    div.titulo, .lado{
+        display: block;
+    }
+    div.titulo h1{
+        font-size: 2.5rem;
+        padding: 8vw 1vw 1vw 4vw;
+        width: 95%;
+    }
+    div.titulo img{
+        width: 350px;
+    }
+    .introducao h3 {
+        font-size: 1.5rem;
+        padding: 0 3vw;
+    }
+    .meio{
+        margin: 0vw 2vw;
+        padding-top: 3vw;
+    }
+    .meio p{
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    .meio h1{
+        text-align: left;
+        padding-bottom: 2vw;
+    }
+    .lado h1{
+        text-align: left;
+        padding: 0;
+    }
+    .lado p{
+        padding: 2vw 0 0 0;
+        font-size: 1.5rem;
+        text-align: left;
+        width: 95%;
+    }
+    .lado img{
+        width: 330px;
+    }
+    footer p{
+        font-size: 0.9rem;
+    }
+    footer p img, div.um img{
+        width: 10vw;
+    }
+}
