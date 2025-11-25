@@ -8,7 +8,7 @@ header {
     border-radius: 20px 20px 0 0;
 }
 
-.primeira {
+.primeira{
     background-color: #effffe;
     margin: 0px 40px 40px 40px;
     border-radius: 0px 0 20px 20px;
@@ -43,7 +43,7 @@ header a {
     font-weight: bold;
 }
 
-section p {
+section p{
     font-size: 1.7rem;
     line-height: 40px;
     padding: 1vw 3vw;
@@ -70,7 +70,7 @@ section p.dois {
 }
 
 
-section img {
+section img{
     width: 35vw;
     height: auto;
     text-align: center;
@@ -78,6 +78,7 @@ section img {
 
 .video iframe{
     margin: 4vw 33vw;
+    border-radius: 20px;
 }
 
 /*footer*/
@@ -112,4 +113,55 @@ footer p {
 
 footer p img {
     width: 5vw;
+}
+@media only screen and (max-width: 600px) {
+
+    
+    header h1{
+        font-size: 2.9rem;
+        padding: 20px 20px 0 20px;
+        text-shadow: #2e6393 2px 2px 5px;
+        
+    }
+    header a{
+        font-size: 0.5rem;
+    }
+    header ul{
+        padding: 15px 18px 20px 18px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .primeira ul{
+        display: block;
+    }
+    section p{
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+    section p.dois{
+        font-size: 1.5rem;
+        line-height: 30px;
+
+    }
+    section img{
+        width: 270px;
+        padding-left: 6vw;
+    }
+    .video  iframe{
+        width: 350px;
+        height: 200px;
+        margin: 4vw;
+    }
+    .primeira{
+        margin: 0px 20px 0 20px;
+    }
+    header{
+        margin: 20px 20px 0 20px;
+    }
+    footer p{
+        font-size: 0.9rem;
+    }
+    footer p img, div.um img{
+        width: 10vw;
+    }
 }
